@@ -1,0 +1,20 @@
+[
+  {
+    "email": "test@example.com",
+    "password": "letmein",
+    "expectedResult": "pass",
+    "description": "Valid credentials"
+  },
+  {
+    "email": "wrong@example.com",
+    "password": "wrongpass",
+    "expectedResult": "fail",
+    "description": "Invalid credentials – error shown"
+  },
+  {
+    "email": "",
+    "password": "",
+    "expectedResult": "fail",
+    "description": "Empty credentials – validation error"
+  }
+]
